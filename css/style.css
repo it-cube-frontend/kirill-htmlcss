@@ -1,0 +1,44 @@
+:root{
+  --color-black: #000;
+  --color-black-light: #333333;
+  --color-wihte: #fff;
+  --color-blue:  #81B3D2;
+  --color-blue-dark: #669EC0;
+  --color-blue-extra-dark: #54968D;
+  --color-gray:  #f2f2f2;
+  --color-gray-black: #EEEEEE;
+  --color-brawn: #766357;
+  --color-brawn-dark: #604E43;
+  --color-brawn-extra-dark: #503E33;
+}
+
+body{
+  font-family: 'PT Sans', sans-serif;
+  font-size: 14px;
+  line-height: 21px;
+  color: var(--color-black-light);
+  background-color: var(--color-wihte);
+}
+
+.main-menu{
+ list-style: none;
+}
+
+.main-menu a{
+  color: var(--color-black);
+  text-decoration: none;
+  font-weight: 700;
+}
+
+.main-menu a:hover {
+  color: var(--color-blue);
+}
+.main-menu a:active{
+  color: var(--color-black);
+  opacity: .3;
+}
+
+.page-main h1{
+  font-size: 21px;
+  font-weight: 24px;
+}
