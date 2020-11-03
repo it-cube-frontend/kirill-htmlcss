@@ -106,3 +106,71 @@ body{
   font-size: 14px;
   font-weight: 400;
 }
+
+/*style hotels*/
+
+.sort p {
+  font-size: 21px;
+  line-height: 26px;
+  font-weight: 700;
+}
+
+.sort {
+  color: var(--color-black)
+}
+
+.sort  {
+  font-size: 12px;
+  line-height: 18px;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.detalied{
+  font-size: 14px;
+  line-height: 21px;
+  font-weight: 700;
+  border: none;
+}
+
+.detalied{
+  color: var(--color-wihte);
+  background-color: var(--color-blue)
+}
+
+.detalied:hover {
+  color: var(--color-wihte);
+  background-color: var(--color-blue-dark);
+}
+
+.detalied:active {
+  color: var(--color-wihte);
+  background-color: var(--color-blue-extra-dark);
+}
+
+.reserved{
+  font-size: 14px;
+  line-height: 21px;
+  font-weight: 700;
+  border: none;
+}
+
+.reserved{
+  color: var(--color-wihte);
+  background-color: var(--color-brawn)
+}
+
+.reserved:hover {
+  color: var(--color-wihte);
+  background-color: var(--color-brawn-dark);
+}
+
+.reserved:active {
+  color: var(--color-wihte);
+  background-color: var(--color-brawn-extra-dark);
+}
+
+.gostinici{
+  list-style: none;
+}
+
