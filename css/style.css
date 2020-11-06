@@ -119,10 +119,16 @@ body{
   color: var(--color-black)
 }
 
-.sort  {
+.sort{
   font-size: 12px;
   line-height: 18px;
-  font-weight: 700;
+  text-decoration: none;
+  list-style: none;
+}
+
+.sort a{
+  text-transform: uppercase;
+  list-style: none;
   text-decoration: none;
 }
 
@@ -174,3 +180,28 @@ body{
   list-style: none;
 }
 
+.found-hotels h3{
+ text-transform: uppercase;
+ cursor: pointer;
+}
+
+.found-hotels a{
+  color: var(--color-black);
+}
+
+.found-hotels a:hover{
+  color: var(--color-blue);
+}
+
+.found-hotels a :active{
+  color: var(--color-black);
+  opacity: 0.3;
+}
+
+.visually-hidden {
+  position: absolute;
+  clip: rect(0 0 0 0);
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+}
