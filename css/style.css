@@ -10,6 +10,7 @@
   --color-brawn: #766357;
   --color-brawn-dark: #604E43;
   --color-brawn-extra-dark: #503E33;
+  --color-black-opacity: color: rgb(0 0 0 0.3)
 }
 
 body{
@@ -132,6 +133,10 @@ body{
   text-decoration: none;
 }
 
+.sort .ssilki{
+  list-style: none;
+}
+
 .detalied{
   font-size: 14px;
   line-height: 21px;
@@ -205,3 +210,27 @@ body{
   height: 1px;
   margin: -1px;
 }
+
+.ssilki a{
+  color: var(--color-black);
+  text-decoration: none;
+  list-style: none;
+}
+
+.ssilki a:hover {
+  color: var(--color-blue);
+  text-decoration: none;
+  list-style: none;
+}
+
+.ssilki a:active{
+  color: var(--color-black);
+  opacity: 0.3;
+  text-decoration: none;
+  list-style: none;
+}
+
+.main-ssilki{
+  list-style: none;
+}
+
