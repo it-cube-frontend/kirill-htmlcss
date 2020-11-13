@@ -76,10 +76,11 @@ body{
 }
 
 .search button:hover {
-  color: var(--color-brawn-dark);
+  background-color: var(--color-brawn-dark);
 }
 .search button:active{
-  color: var(--color-brawn-extra-dark);
+  background-color: var(--color-brawn-extra-dark);
+
 }
 
 .question {
@@ -106,6 +107,7 @@ body{
 .main-footer .website-by {
   font-size: 14px;
   font-weight: 400;
+  text-transform: uppercase;
 }
 
 /*style hotels*/
@@ -234,3 +236,10 @@ body{
   list-style: none;
 }
 
+.Sedona{
+  text-transform: uppercase;
+}
+
+.name{
+  text-transform: uppercase;
+}
