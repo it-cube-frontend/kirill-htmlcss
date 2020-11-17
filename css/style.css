@@ -1,0 +1,245 @@
+:root{
+  --color-black: #000;
+  --color-black-light: #333333;
+  --color-wihte: #fff;
+  --color-blue:  #81B3D2;
+  --color-blue-dark: #669EC0;
+  --color-blue-extra-dark: #54968D;
+  --color-gray:  #f2f2f2;
+  --color-gray-dark: #EEEEEE;
+  --color-brawn: #766357;
+  --color-brawn-dark: #604E43;
+  --color-brawn-extra-dark: #503E33;
+  --color-black-opacity: color: rgb(0 0 0 0.3)
+}
+
+body{
+  font-family: 'PT Sans', sans-serif;
+  font-size: 14px;
+  line-height: 21px;
+  color: var(--color-black-light);
+  background-color: var(--color-wihte);
+  list-style: none;
+}
+
+.main-menu{
+ list-style: none;
+}
+
+.main-menu a{
+  color: var(--color-black);
+  text-decoration: none;
+  font-weight: 700;
+}
+
+.main-menu a:hover {
+  color: var(--color-blue);
+}
+.main-menu a:active{
+  color: var(--color-black);
+  opacity: .3;
+}
+
+.page-main h1{
+  font-size: 21px;
+  font-weight: 700;
+  line-height: 26px;
+}
+
+.features h3{
+  font-size: 21px;
+  line-height: 21px;
+  font-weight: 700;
+}
+
+.features ul{
+  list-style: none;
+}
+
+.features-list{
+  background-color: var(--color-gray-dark);
+  padding: 0;
+  margin: 0;
+}
+
+.features-with-image{
+  background-color: var(--color-blue);
+  color: var(--color-wihte);
+}
+
+.search button{
+  font-size: 24px;
+  color: var(--color-wihte);
+  font-weight: 700;
+  border: none;
+  background-color: var(--color-brawn);
+}
+
+.search button:hover {
+  background-color: var(--color-brawn-dark);
+}
+.search button:active{
+  background-color: var(--color-brawn-extra-dark);
+
+}
+
+.question {
+  font-size: 30px;
+  line-height: 24px;
+  font-weight: 700;
+}
+
+.main-footer {
+  color: var(--color-black);
+
+}
+
+.main-footer p {
+  font-size: 21px;
+  font-weight: 700;
+  line-height: 26px;
+}
+
+.main-footer ul {
+  list-style: none;
+}
+
+.main-footer .website-by {
+  font-size: 14px;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+
+/*style hotels*/
+
+.sort p {
+  font-size: 21px;
+  line-height: 26px;
+  font-weight: 700;
+}
+
+.sort {
+  color: var(--color-black)
+}
+
+.sort{
+  font-size: 12px;
+  line-height: 18px;
+  text-decoration: none;
+  list-style: none;
+}
+
+.sort a{
+  text-transform: uppercase;
+  list-style: none;
+  text-decoration: none;
+}
+
+.sort .ssilki{
+  list-style: none;
+}
+
+.detalied{
+  font-size: 14px;
+  line-height: 21px;
+  font-weight: 700;
+  border: none;
+}
+
+.detalied{
+  color: var(--color-wihte);
+  background-color: var(--color-blue)
+}
+
+.detalied:hover {
+  color: var(--color-wihte);
+  background-color: var(--color-blue-dark);
+}
+
+.detalied:active {
+  color: var(--color-wihte);
+  background-color: var(--color-blue-extra-dark);
+}
+
+.reserved{
+  font-size: 14px;
+  line-height: 21px;
+  font-weight: 700;
+  border: none;
+}
+
+.reserved{
+  color: var(--color-wihte);
+  background-color: var(--color-brawn)
+}
+
+.reserved:hover {
+  color: var(--color-wihte);
+  background-color: var(--color-brawn-dark);
+}
+
+.reserved:active {
+  color: var(--color-wihte);
+  background-color: var(--color-brawn-extra-dark);
+}
+
+.gostinici{
+  list-style: none;
+}
+
+.found-hotels h3{
+ text-transform: uppercase;
+ cursor: pointer;
+}
+
+.found-hotels a{
+  color: var(--color-black);
+}
+
+.found-hotels a:hover{
+  color: var(--color-blue);
+}
+
+.found-hotels a :active{
+  color: var(--color-black);
+  opacity: 0.3;
+}
+
+.visually-hidden {
+  position: absolute;
+  clip: rect(0 0 0 0);
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+}
+
+.ssilki a{
+  color: var(--color-black);
+  text-decoration: none;
+  list-style: none;
+}
+
+.ssilki a:hover {
+  color: var(--color-blue);
+  text-decoration: none;
+  list-style: none;
+}
+
+.ssilki a:active{
+  color: var(--color-black);
+  opacity: 0.3;
+  text-decoration: none;
+  list-style: none;
+}
+
+.main-ssilki{
+  list-style: none;
+}
+
+.Sedona{
+  text-transform: uppercase;
+}
+
+.name{
+  text-transform: uppercase;
+}
