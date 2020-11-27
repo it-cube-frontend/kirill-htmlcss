@@ -13,17 +13,25 @@
   --color-black-opacity: color: rgb(0 0 0 0.3)
 }
 
-body{
+body {
   font-family: 'PT Sans', sans-serif;
   font-size: 14px;
   line-height: 21px;
   color: var(--color-black-light);
   background-color: var(--color-wihte);
   list-style: none;
+
+  width: 1200px;
 }
 
 .main-menu{
- list-style: none;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  justify-items: center;
+  align-items: center;
 }
 
 .main-menu a{
@@ -242,4 +250,49 @@ body{
 
 .name{
   text-transform: uppercase;
+}
+
+.main-menu:before{
+content: "";
+grid-column: 3/4;
+grid-row: 1/-1;
+}
+
+.main-navigation{
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+}
+
+.main-menu {
+ grid-column: 1/-1;
+ grid-row: 1/-1;
+}
+
+.sedona-logo {
+  grid-column: 3/4;
+  grid-row: 1/-1;
+  justify-self: center;
+}
+
+.img-main {
+  display: grid;
+  justify-items: center;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+}
+
+.img-main img {
+  grid-column: 1/-1;
+  grid-row: 1/-1;
+}
+.img-main::after {
+  content: "";
+  display: block;
+  height: 57px;
+  width: 100%;
+  background-image: url("../img/Shape.svg");
+  grid-column: 1/-1;
+  grid-row: 1/-1;
+  align-self: flex-end;
 }
