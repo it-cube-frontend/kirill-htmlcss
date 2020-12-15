@@ -418,14 +418,17 @@ grid-row: 1/-1;
   justify-items: center;
   align-items: center;
   text-align: center;
+  justify-content: center;
 }
 
 .website-by{
   grid-column: 3/4;
   grid-row: 1/-1;
   justify-items: center;
-  align-items: center;
   text-align: center;
+  align-items: center;
+  display: flex;
+  justify-content: center;
 }
 
 .text{
